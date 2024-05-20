@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 export default function Example() {
   const [openDiv, setOpenDiv] = useState(null);
-console.log("k")
+
   function handleToggle(index) {
     setOpenDiv(openDiv === index ? null : index);
   }
@@ -15,7 +15,6 @@ console.log("k")
         
         <h4>Invited Editor: Blair Fix</h4>
         <div className="field"> <h3>Information about the invited editor</h3> </div>
-
 
         <h1 style={{ margin: "30px 25px" }}>Myth: Productivity explains income</h1>
 
